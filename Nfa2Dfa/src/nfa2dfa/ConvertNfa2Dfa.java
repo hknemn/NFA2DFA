@@ -371,7 +371,6 @@ public class ConvertNfa2Dfa {
 	}
 
 	String getUnionStates(String term1, String term2) {
-
 		List<String> uniqueValueList = new ArrayList<>();
 		String result = "";
 		term1 = term1.replace("{", "").replace("}", "");
