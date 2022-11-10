@@ -8,7 +8,7 @@
 ### What's Idea?
 The idea is to convert the NFA into an equivalent DFA that simulates the NFA.
 
-### What’s Equivalence of Automata
+### Equivalence of Automata
 * Deterministic and nondeterministic finite automata recognize the same class of languages. 
 * Such equivalence is both surprising and useful. 
 * It is surprising because NFAs appear to have more power than DFAs, so we might expect that NFAs recognize more languages. 
@@ -16,7 +16,7 @@ The idea is to convert the NFA into an equivalent DFA that simulates the NFA.
 * Say that two machines are equivalent if they recognize the same language.
 * Every nondeterministic finite automaton has an equivalent deterministic finite automaton.
 
-### How it's Work
+### Project Explanation
 * An example txt file is given in the project.
 * In the example txt file, a distinction is made with spaces and tab characters.
 * The values in the δ transition function are separated from each other by the tab character.
